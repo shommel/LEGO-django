@@ -1,4 +1,4 @@
-# django-test
+# LEGO-django
 
 ## Description
 This repo consists of a quick mock up of a LEGO set review blog site built on Django. This is my first project using Django, so some optimizations can be made, but I tried to timebox it to a few hours of watching videos/reading documentation. 
@@ -66,3 +66,9 @@ Launch your web browser and go to that address, and you should be greeted with t
 ### Accessing Admin Page
 
 If you need to access the django-admin backend, simply go to ```localhost:8000/admin``` and login with your ```superuser``` account information from before. 
+
+## Things to note
+
+As I said above, the site can be optimized a tad more. Just because I wanted to timebox the first part of this project, I did not finish the link redirectipn after registering for an account and updating account information. So after clicking the buttons on their respective screens, it may seem like nothing happened. However, if you click the navigation bar and continue on to the login/home screen, you can see the necessary actions were taken.
+
+Any and all feedback/comments are welcomed.
