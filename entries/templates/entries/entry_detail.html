@@ -1,0 +1,20 @@
+{% extends "entries/base.html" %}
+{% block content %}
+      <!-- Blog Entries Column -->
+      <div class="col-md-8">
+
+        <a href="{% url 'blog-home' %}">Back to Home</a>
+        <!-- Blog Post -->
+        <div class="card mb-4 mt-4">
+          <div class="card-body">
+            <h3 class="card-title">{{ object.title }}</h3>
+            <p class="card-text">{{ object.text|linebreaks }}</p>
+          </div>
+          <span class="card-footer"> {{ object.num_pieces }} Pieces</span>
+          <div class="card-footer text-muted"> {{ object.date }}
+            <span class= "text-info mr-2">{{ object.author }}</span> 
+          </div>
+        </div>
+
+      </div>
+{% endblock %}
